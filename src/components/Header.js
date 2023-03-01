@@ -1,7 +1,6 @@
 import React from 'react';
 //images
 
-import theone from "../assets/theone.png"
 
 const Header = () => {
   return <header className="py-8">
@@ -9,7 +8,7 @@ const Header = () => {
       <div className="flex justify-between items-center">
         {/* logo */}
         <a href="#">
-          <img src={theone} alt="" className="w-[150px]"/>
+          
         </a>
         {/* button */}
         <button className='btn btn-sm'>Work with me</button>
